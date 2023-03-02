@@ -1,0 +1,38 @@
+$prefix: "../../img/";
+$bg__about-img: 
+    $prefix+"about/about-s1.jpg",
+    $prefix+"about/about-s2.jpg",
+    $prefix+"about/about-s3.jpg";
+$bg__comingsoon-img: $prefix+"coming.jpg";
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg";
+$bg__drinks-img: 
+    $prefix+"drinks/drinks-s1.jpg",
+    $prefix+"drinks/drinks-s2.jpg",
+    $prefix+"drinks/drinks-s3.jpg";
+$bg__error-img: $prefix+"error.jpg";
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__privacy-img: $prefix+"privacy.jpg";
+$bg__user-img: $prefix+"user/user-s1.jpg";
+$bg__init:
+    "about",
+    "comingsoon",
+    "contact",
+    "drinks",
+    "error",
+    "index",
+    "privacy",
+    "user";
+$classes_init:
+    $bg__about-img,
+    $bg__comingsoon-img,
+    $bg__contact-img,
+    $bg__drinks-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__privacy-img,
+    $bg__user-img;
+$footer-height: 57px;
+$color__shadow: #333;
+$text-shadow: 1px 1px 3px $color__shadow; 
